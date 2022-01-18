@@ -41,14 +41,15 @@
   position: absolute;
   left: 0;
   top: 30%;
-  width:25%
+  width: 25%
 }
 
 #right-deco {
   position: absolute;
   right: -12%;
-  top: -8%;
-  width:40%
+  top: 0;
+  width: 40%;
+  z-index: 1;
 }
 
 #mail-icon {

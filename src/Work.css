@@ -25,12 +25,14 @@
 
 .uiWeb-title {
   font-weight: bold;
-  margin-bottom: 5% ;
+  margin-bottom: 5%;
 }
+
 
 #workNee {
   width:72%;
 } 
+
 #uiWorkIcon {
   width: 80%;
 }
@@ -42,7 +44,7 @@
 }
 
 .ui-project-text {
-  width:50%;
+  width:100%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;

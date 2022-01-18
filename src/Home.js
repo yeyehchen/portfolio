@@ -2,7 +2,6 @@ import React from "react";
 import './Home.css';
 
 import decoration1 from './svg-images/decoration1.svg';
-import decoration2 from './svg-images/decoration2.svg';
 import mailIcon from './svg-images/mailIcon.svg';
 import neenee1 from './svg-images/neenee1.svg';
 import noteapp1 from './svg-images/noteapp1.svg';
@@ -21,19 +20,18 @@ function Home(props) {
   const renderTop = () => (
     <div className="top-container">
       <div className="top-container-background">
-        <img id="right-deco" src={decoration2} />
         <img id="left-deco" src={decoration1} />
       </div>
       <div className="top-container-body">
           <img className="profilePhoto" src="profilePhoto.png"/>
         <div className="profile-text-container">
           <div className="profile-text-title">
-            <div className="f3">DESIGNER</div>
-            <div className="f3">BASED IN PORTUGAL</div>
+            <div className="f3 z2">DESIGNER</div>
+            <div className="f3 z2">BASED IN PORTUGAL</div>
           </div>
           <div className="profile-text">
-            <div className="f2">Hi! I am Yeyeh.</div>
-            <div className="f2">Fashion designer turned UI and Web designer.</div>
+            <div className="f2 z2">Hi! I am Yeyeh.</div>
+            <div className="f2 z2">Fashion designer turned UI and Web designer.</div>
           </div>
           <div className="top-container-footer">
             <img id="mail-icon" src={mailIcon} />
@@ -52,7 +50,7 @@ function Home(props) {
           <div className="uiwork-photos-left">
             <div id="uiwork-neenee">
               <img src={neenee1} />
-              <div className="f2 uiwork-text">LEARNING WEBSITE FOR KIDS</div>
+              <div className="f2 uiwork-text">ONLINE LEARNING PLATFORM FOR KIDS</div>
             </div>
             <div className="f2 ui-button pointer" onClick={() => navigate("/work")}>MORE PROJECTS</div>
           </div>

@@ -4,6 +4,11 @@
   font-family: 'Noto Sans', sans-serif;
 }
 
+html {
+  z-index: 0;
+  overflow-x: hidden;
+}
+
 .f1 {
   font-size: 1.5vw;
 }
@@ -18,6 +23,16 @@
 
 .f4 {
   font-size: 3.5vw;
+}
+
+.z1 {
+  position: relative;
+  z-index: 1;
+}
+
+.z2 {
+  position: relative;
+  z-index: 2;
 }
 
 .container {

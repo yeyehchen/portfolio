@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "./Footer";
 import "./Work.css";
 
 import uiWorkIcon from "./svg-images/uiWorkIcon.svg";
@@ -24,17 +23,16 @@ const renderProjects = () => {
         <div className="ui-projects-row">
           <div className="ui-title-box">
             <div>
-              <div className="f3 uiWeb-title">UI/WEB/APP Design</div>
-              <div className="f1 uiWeb-text">please click on image to see the prototype on figma   </div>
+              <div className="f3 uiWeb-title">WEB & APP UI Design</div>
+              <div className="f1 uiWeb-text">click on the project to see the prototype in Figma</div>
             </div>
             <img id="uiWorkIcon" src={uiWorkIcon}/>
           </div>
           <img id="workNee" src={workNee} />
         </div>
         <div className="ui-project-text-container">
-          <div className="ui-project-text" />
           <div className="ui-project-text">
-            <div className="f2 project-name">KIDS GAMES WEB/APP</div>
+            <div className="f2 project-name">ONLINE LEARNING PLATFORM FOR KIDS</div>
             <div className="f1 project-tool">FIGMA</div>
           </div>
         </div>
@@ -44,12 +42,12 @@ const renderProjects = () => {
         </div>
         <div className="ui-project-text-container">
           <div className="ui-project-text">
-            <div className="f2 project-name">BIKE/WEBSITE</div>
-            <div className="f1 project-tool">XD</div>
+            <div className="f2 project-name">BIKE SHOP</div>
+            <div className="f1 project-tool">ADOBE XD</div>
           </div>
           <div className="ui-project-text">
-            <div className="f2 project-name">FURNITURE SHOP/WEBSITE</div>
-            <div className="f1 project-tool">XD</div>
+            <div className="f2 project-name">FURNITURE SHOP</div>
+            <div className="f1 project-tool">ADOBE XD</div>
           </div>
         </div>
         <div className="ui-projects-row">
@@ -58,7 +56,7 @@ const renderProjects = () => {
         <div className="ui-project-text-container">
           <div className="ui-project-text" />
           <div className="ui-project-text">
-            <div className="f2 project-name">NOTE/APP</div>
+            <div className="f2 project-name">NOTE TAKING APP</div>
             <div className="f1 project-tool">FIGMA</div>
           </div>
         </div>
@@ -68,11 +66,11 @@ const renderProjects = () => {
         </div>
         <div className="ui-project-text-container">
           <div className="ui-project-text">
-            <div className="f2 project-name">COFFEE SHOP/APP</div>
+            <div className="f2 project-name">COOKING RECIPES APP</div>
             <div className="f1 project-tool">FIGMA</div>
           </div>
           <div className="ui-project-text">
-            <div className="f2 project-name">COOKING RECIPES/APP</div>
+            <div className="f2 project-name">COFFEE SHOP APP</div>
             <div className="f1 project-tool">FIGMA</div>
           </div>
         </div>
