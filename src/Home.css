@@ -1,0 +1,216 @@
+.top-container {
+  background-color: #f4f1de;
+  overflow: hidden;
+  position: relative;
+}
+
+.top-container-body {
+  margin:0 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10%;
+}
+
+.top-container-footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20% 0% 6% 0%;
+}
+
+.profilePhoto{
+  width: 50%;
+}
+
+.profile-text-container {
+  color: #3d405b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.profile-text-title {
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+#left-deco {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width:25%
+}
+
+#right-deco {
+  position: absolute;
+  right: -12%;
+  top: -8%;
+  width:40%
+}
+
+#mail-icon {
+  width: 10%;
+  animation-name: mailBox;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mailBox {
+  0% {transform: rotate(20deg);}
+  50% {transform: rotate(-20deg);}
+  100% {transform: rotate(20deg);}
+}
+
+.top-container-email {
+ color: #E07A5F;
+ margin-left: 5%;
+}
+
+
+.uiwork-container{
+  background-color: #3d405b;
+  padding: 10%;
+}
+
+.uiwork-photos-left {
+  position: relative;
+  width: 60%;
+  margin-right: 40px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uiwork-photos-right {
+  position: relative;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.ui-button {
+  width: 50%;
+  border: white 3px solid;
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding: 3% 0;
+}
+
+.uiwork-text {
+  position: absolute;
+  color:white;
+  right: 5%;
+  bottom: 5%;
+  font-weight: bold;
+  
+}
+.uiwork-title {
+  color:white;
+  font-weight: bold;
+  margin-bottom: 8%;
+}
+
+.uiwork-container-photos {
+  display: flex;
+  flex-direction: row;
+}
+
+#uiwork-neenee {
+  position: relative;
+  width: 100%;
+}
+
+#uiwork-note {
+  position: relative;
+  margin-bottom: 10%;
+}
+
+.bottom-container {
+  background-color: #f4f1de;
+}
+
+.service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-title {
+  color: #3d405b;
+  font-weight: bold;
+  margin-top: 15%;
+}
+
+.service-text {
+  color: #3d405b;
+  margin: 3%;
+}
+
+.service-iamges-container {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 5%;
+  margin: 5% 0;
+}
+
+.service-image-ui{
+  background-color: #81B29A;
+  border-radius:5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10% 0;
+ 
+}
+
+.service-image-branding{
+  background-color: #E07A5F;
+  border-radius:5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10% 0;
+}
+
+.service-image-illustration{
+  background-color: #F2CC8F;
+  border-radius: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10% 0;
+}
+
+.service-image-icon {
+  width: 60%; 
+  padding: 5%;
+}
+
+.service-image-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 5%;
+}
+
+.service-button {
+  border: 3px solid #3d405b;
+  font-weight:bold;
+  padding: 2% 3%;
+  text-align: center;
+  color: #3d405b;
+  margin: 10% 0;
+}

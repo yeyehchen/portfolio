@@ -1,0 +1,139 @@
+.projects-container {
+  background-color: #f4f1de;
+}
+
+.ui-projects-container{
+  padding: 10% 0;
+  color: #3d405b;
+}
+
+.ui-projects-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ui-title-box{
+  background-color: #E07A5F;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 3%;
+  width:20%;
+}
+
+.uiWeb-title {
+  font-weight: bold;
+  margin-bottom: 5% ;
+}
+
+#workNee {
+  width:72%;
+} 
+#uiWorkIcon {
+  width: 80%;
+}
+
+.ui-project-text-container {
+  display: flex;
+  flex-direction: row;
+  color: #3d405b;
+}
+
+.ui-project-text {
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 2%;
+  color: #3d405b;
+}
+
+.project-name {
+  font-weight: bold;
+}
+
+#workBike {
+  width:49%;
+}
+
+#workFurniture {
+  width:49%;
+}
+
+#workNote {
+  width: 100%;
+}
+
+#workRecipe {
+  width:49%;
+}
+
+#workCafe{
+  width:49%;
+}
+
+.other-design-container {
+  background-color: #3d405b;
+  padding:10%;
+}
+
+.other-design-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5% 0;
+}
+
+#title-box {
+  background-color: #C4C4C4;
+  width: 36%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vw;
+}
+
+#otherWorkIcon {
+  width: 50%;
+  padding: 5%;
+}
+
+#worKIcon {
+  width: 60%;
+}
+
+.other-design-title {
+  font-weight: bold;
+  color: #3d405b;
+  padding: 5% 10%;
+}
+
+.other-design-text-containter {
+  
+}
+
+.other-design-text {
+  font-weight: bold;
+  color: white;
+  text-align: right;
+  margin-bottom: 3%;
+}
+
+.workLine {
+  width: 100%;
+}
+
+#worKHaobao {
+  width: 55%;
+}
+
+#worKBienyeh {
+  width: 41%;
+}
+
+#calendar {
+  width: 100%;
+}

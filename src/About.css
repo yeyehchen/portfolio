@@ -1,0 +1,109 @@
+.about-top-container {
+  background-color: #f4f1de;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10%;
+}
+
+.about-top-right {
+  width: 40%;
+  color:#3d405b;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-top-left {
+ width: 50%;
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.aboutDeco {
+  width: 90%;
+  position: relative;
+}
+
+.yeyehImg {
+width: 60%;
+position: absolute;
+z-index: 3;
+
+animation-name: yeyeh;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes yeyeh {
+  0% {transform: rotate(0);}
+  50% {transform: rotate(20deg);}
+  100% {transform: rotate(0);}
+}
+
+
+.about-top-title {
+ font-weight: bold;
+}
+
+.about-top-text {
+  margin-top: 8%;
+ }
+
+ .experience-container {
+   display: flex;
+   flex-direction: row;
+   position: relative;
+ }
+
+ .experience-left {
+   background-color: #3d405b;
+   padding: 6% ;
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+ }
+
+ #experience-img {
+   width:80%;
+ }
+
+.experience-left-title {
+  color: white;
+  margin-bottom: 10%;
+  font-weight: bold;
+}
+
+.experience-right {
+  width: 60%;
+  color:#3d405b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+.dot {
+  width: 10%;
+  position: relative;
+  right: 5%;
+}
+
+.experience-right-title {
+ font-weight: bold;
+}
+
+
+.experience-right-text {
+  margin: 0 10%;
+}
+

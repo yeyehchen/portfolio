@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.f1 {
+  font-size: 1.5vw;
+}
+
+.f2 {
+  font-size: 2vw;
+}
+
+.f3 {
+  font-size: 3vw;
+}
+
+.f4 {
+  font-size: 3.5vw;
+}
+
+.container {
+  width: 80%;
+  padding: 0 10%;
+}
+
+.nav-container {
+  background-color: #f4f1de;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  justify-content: space-between;
+  color: #3d405b;
+}
+
+.nav-name {
+  font-weight: bold;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%
+}
+
+.button {
+  border: 3px solid #3d405b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-weight: bold;
+  width: 30%;
+  padding: 10px 0;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:link , .botton:visited {
+  text-decoration: none;
+  color: #3d405b;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: #F2CC8F;
+  color: #3d405b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-top {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0;
+}
+
+.footer-top-left {
+  margin-right: 3%;
+}
+
+.footer-text {
+  padding-top: 6%;
+  padding-bottom: 3%;
+  font-weight: bold;
+}
+
+.footer-buttonsign {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.footer-button {
+  border:5px solid #3d405b;
+  font-weight: bold;
+  padding: 2%;
+  text-align: center;
+  margin-right: 3%;
+}
+
+.footer-top-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#footer-mail-icon {
+  width: 20%;
+  margin-bottom: 5%;
+}
+
+.footer-email {
+  font-weight: bold;
+}
+
+#footer-arrow {
+  width: 4%;
+}
+
+.footer-copyright {
+  padding-top: 1%;
+  font-size: 1vw;
+
+}
+
+#footerLine {
+  width: 80%;
+}
