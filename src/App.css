@@ -4,6 +4,11 @@
   font-family: 'Noto Sans', sans-serif;
 }
 
+a {
+  color: #3d405b;
+  text-decoration: underline; 
+}
+
 html {
   z-index: 0;
   overflow-x: hidden;

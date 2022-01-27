@@ -23,12 +23,12 @@ const renderProjects = () => {
         <div className="ui-projects-row">
           <div className="ui-title-box">
             <div>
-              <div className="f3 uiWeb-title">WEB & APP UI Design</div>
-              <div className="f1 uiWeb-text">click on the project to see the prototype in Figma</div>
+              <div className="f3 uiWeb-title">WEB & APP UI Designs</div>
+              {/*<div className="f1 uiWeb-text">click on the project to see the prototype in Figma</div>*/}
             </div>
-            <img id="uiWorkIcon" src={uiWorkIcon}/>
+            <img id="uiWorkIcon" src={uiWorkIcon} alt=""/>
           </div>
-          <img id="workNee" src={workNee} />
+          <img id="workNee" src={workNee} alt=""/>
         </div>
         <div className="ui-project-text-container">
           <div className="ui-project-text">
@@ -37,8 +37,8 @@ const renderProjects = () => {
           </div>
         </div>
         <div className="ui-projects-row">
-          <img id='workBike' src={workBike} />
-          <img id='workFurniture' src={workFuniture} />
+          <img id='workBike' src={workBike} alt=""/>
+          <img id='workFurniture' src={workFuniture} alt=""/>
         </div>
         <div className="ui-project-text-container">
           <div className="ui-project-text">
@@ -51,7 +51,7 @@ const renderProjects = () => {
           </div>
         </div>
         <div className="ui-projects-row">
-          <img id='workNote' src={workNote} />
+          <img id='workNote' src={workNote} alt=""/>
         </div>
         <div className="ui-project-text-container">
           <div className="ui-project-text" />
@@ -61,8 +61,8 @@ const renderProjects = () => {
           </div>
         </div>
         <div className="ui-projects-row">
-          <img id='workRecipe' src={workRecipe} />
-          <img id='workCafe' src={workCafe} />
+          <img id='workRecipe' src={workRecipe} alt=""/>
+          <img id='workCafe' src={workCafe} alt=""/>
         </div>
         <div className="ui-project-text-container">
           <div className="ui-project-text">
@@ -75,7 +75,7 @@ const renderProjects = () => {
           </div>
         </div>
       </div>
-    </div >
+    </div>
   )
 
 }
@@ -84,25 +84,25 @@ const renderOtherPorjects = () => (
   <div className="container other-design-container">
     <div className="other-design-row">
       <div id="title-box" >
-        <div className="f3 other-design-title" >OTHER DESIGN PROECT</div>
-        <img id="otherWorkIcon" src={otherWorkIcon} />
+        <div className="f3 other-design-title" >OTHER DESIGN PROJECTS</div>
+        <img id="otherWorkIcon" src={otherWorkIcon} alt=""/>
       </div>
-      <img id="worKIcon" src={workIcon} />
+      <img id="worKIcon" src={workIcon} alt=""/>
     </div>
     <div className="other-design-text-containter">
       <div className="f2 other-design-text">ICON DESIGN</div>
-      <img className="workLine" src={workLine} />
+      <img className="workLine" src={workLine} alt=""/>
     </div>
     <div className="other-design-row">
-      <img id="worKHaobao" src={workHaobao} />
-      <img id="worKBienyeh" src={workbienyeh} />
+      <img id="worKHaobao" src={workHaobao} alt=""/>
+      <img id="worKBienyeh" src={workbienyeh} alt=""/>
     </div>
     <div className="other-design-text-containter">
       <div className="f2 other-design-text">BRANDING/LOGO DESIGN</div>
-      <img className="workLine" src={workLine} />
+      <img className="workLine" src={workLine} alt=""/>
     </div>
     <div className="other-design-row">
-      <img id="calendar" src={calendar} />
+      <img id="calendar" src={calendar} alt=""/>
     </div>
     <div className="other-design-text-containter">
       <div className="f2 other-design-text">CALENDER DESIGN/ILLUSTRATION</div>
@@ -110,9 +110,6 @@ const renderOtherPorjects = () => (
   </div>
 
 )
-
-
-
 
 
 function Work(props) {
