@@ -7,6 +7,8 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import decoration2 from './svg-images/decoration2.svg';
 import ScrollToTop from './ScrollToTop';
+import Contact from './Contact';
+
 
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
         } />
         <Route path="/about" element={<About />} />
         <Route path="/work" element={<Work/>} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>

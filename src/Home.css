@@ -65,9 +65,16 @@
   100% {transform: rotate(20deg);}
 }
 
-.top-container-email {
+#polygon {
+  width: 5%;
+  margin-left: 5%; 
+  transform: rotate(180deg);
+  filter: invert(53%) sepia(67%) saturate(447%) hue-rotate(325deg) brightness(95%) contrast(85%);
+}
+
+.top-container-footer-text {
  color: #E07A5F;
- margin-left: 5%;
+ margin-left: 3%; 
 }
 
 

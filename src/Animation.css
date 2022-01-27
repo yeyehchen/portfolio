@@ -1,0 +1,56 @@
+#footerImage{
+  width: 1%;
+  animation-name: head;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  transform-box: view-box;
+  }
+  
+  @keyframes head {
+    0% {transform: rotate(0);}
+    50% {transform: rotate(2deg);}
+    100% {transform: rotate(0);}
+  }
+
+  #open-mouth {
+    animation-name: mouth;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: step-start;
+    }
+    
+    @keyframes mouth{
+      0% {opacity: 0;}
+      50% {opacity: 1;}
+      100% {opacity: 0;}
+      
+    }
+
+
+    #open{
+      animation-name: evenlope-open;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: step-start;
+      
+    }
+    
+    @keyframes evenlope-open{
+      0% {opacity: 0;}
+      50%{opacity: 1;}
+      100% {opacity: 0;}
+    }
+
+    #close{
+      animation-name: evenlope-close;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: step-start;
+    }
+    
+    @keyframes evenlope-close{
+      0% {opacity: 1;}
+      50% {opacity: 0;}
+      100% {opacity: 1;}
+    }

@@ -9,8 +9,10 @@ import cafeapp1 from './svg-images/cafeapp1.svg';
 import uiwebIcon from './svg-images/uiwebIcon.svg';
 import brandingIcon from './svg-images/brandingIcon.svg';
 import illustrationIcon from './svg-images/illustrationIcon.svg';
+import footerPolygon from './svg-images/footerPolygon.svg';
 
 import { useNavigate } from "react-router-dom";
+
 
 
 function Home(props) {
@@ -35,7 +37,8 @@ function Home(props) {
           </div>
           <div className="top-container-footer">
             <img id="mail-icon" src={mailIcon} />
-            <div className="f1 top-container-email">yaya1204hk@gmail.com</div>
+            <img id="polygon" src={footerPolygon}/>
+            <div className="f1 top-container-footer-text">Contact me here!</div>
           </div>
         </div>
       </div>
