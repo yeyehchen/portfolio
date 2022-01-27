@@ -20,7 +20,7 @@ function Nav(props) {
 
         <div className="f1 button z2" onClick={() => navigate('/work')}>WORK</div>
 
-        <div className="f1 button z2" onClick={() => setOpen(true)}>CONTACT</div>
+        <div className="f1 button z2" onClick={() => navigate('contact')}>CONTACT</div>
 
       </div>
     </div>

@@ -22,10 +22,10 @@ function Home(props) {
   const renderTop = () => (
     <div className="top-container">
       <div className="top-container-background">
-        <img id="left-deco" src={decoration1} />
+        <img id="left-deco" src={decoration1} alt=""/>
       </div>
       <div className="top-container-body">
-          <img className="profilePhoto" src="profilePhoto.png"/>
+          <img className="profilePhoto" src="profilePhoto.png" alt=""/>
         <div className="profile-text-container">
           <div className="profile-text-title">
             <div className="f3 z2">DESIGNER</div>
@@ -33,12 +33,12 @@ function Home(props) {
           </div>
           <div className="profile-text">
             <div className="f2 z2">Hi! I am Yeyeh.</div>
-            <div className="f2 z2">Fashion designer turned UI and Web designer.</div>
+            <div className="f2 z2">Fashion designer and artist turned UI and Web designer.</div>
           </div>
-          <div className="top-container-footer">
-            <img id="mail-icon" src={mailIcon} />
-            <img id="polygon" src={footerPolygon}/>
-            <div className="f1 top-container-footer-text">Contact me here!</div>
+          <div className="top-container-footer pointer" onClick={() => navigate("/contact")}>
+            <img id="mail-icon" src={mailIcon} alt=""/>
+            <img id="polygon" src={footerPolygon} alt=""/>
+            <div className="f2 top-container-footer-text">Let's collaborate!</div>
           </div>
         </div>
       </div>
@@ -52,18 +52,18 @@ function Home(props) {
         <div className="uiwork-container-photos">
           <div className="uiwork-photos-left">
             <div id="uiwork-neenee">
-              <img src={neenee1} />
+              <img src={neenee1} alt=""/>
               <div className="f2 uiwork-text">ONLINE LEARNING PLATFORM FOR KIDS</div>
             </div>
             <div className="f2 ui-button pointer" onClick={() => navigate("/work")}>MORE PROJECTS</div>
           </div>
           <div className="uiwork-photos-right">
             <div id="uiwork-note">
-              <img src={noteapp1} />
+              <img src={noteapp1} alt=""/>
               <div className="f2 uiwork-text">NOTE TAKING APP</div>
             </div>
             <div id="uiwork-cafe">
-              <img src={cafeapp1} />
+              <img src={cafeapp1} alt=""/>
               <div className="f2 uiwork-text">COFESHOP APP</div>
             </div>
           </div>
@@ -75,19 +75,23 @@ function Home(props) {
     <div className="container bottom-container">
       <div className="service-container">
         <div className="f3 service-title">HOW CAN I HELP YOU?</div>
-        <div className="f1 service-text">Do ea adipisicing non enim cupidatat consequat laborum dolore velit sit excepteur nulla id. Esse laborum aute qui fugiat culpa incididunt tempor nulla aliquip tempor ut. Do duis cupidatat ipsum deserunt. Amet commodo velit id magna dolore elit. Sit commodo et sunt commodo qui.</div>
+        <div className="f1 service-text">
+          I can help you bring your projects to life by giving them an appealing look that matches your brand
+          and your voice. I love everyting related to design. I'm happy to design your app, create a style
+          for your brand or pick up a pencil and create that illustation you need.
+        </div>
         <div className="service-iamges-container">
           <div className="service-image-ui">
-            <img className="service-image-icon" src={uiwebIcon} />
+            <img className="service-image-icon" src={uiwebIcon} alt=""/>
             <div className="f1 service-image-text">UI & WEB DESIGN</div>
           </div>
           <div className="service-image-branding">
-            <img className="service-image-icon" src={brandingIcon} />
+            <img className="service-image-icon" src={brandingIcon} alt=""/>
             <div className="f1 service-image-text">BRANDING &<br></br>LOGO DESIGN</div>
 
           </div>
           <div className="service-image-illustration">
-            <img className="service-image-icon" src={illustrationIcon} />
+            <img className="service-image-icon" src={illustrationIcon} alt=""/>
             <div className="f1 service-image-text">ILLUSTRATION</div>
           </div>
         </div>
