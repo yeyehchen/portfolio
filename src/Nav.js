@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Container from "./Container";
 import ContactModal from "./ContactModal";
 
 function Nav(props) {
