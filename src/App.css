@@ -6,7 +6,7 @@
 
 a {
   color: #3d405b;
-  text-decoration: underline; 
+  text-decoration: underlineya; 
 }
 
 html {
@@ -68,7 +68,7 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 45%
+  width: 50%
 }
 
 .button {
@@ -78,8 +78,12 @@ html {
   align-items: center;
   position: relative;
   font-weight: bold;
-  width: 30%;
+  width: 20%;
   padding: 10px 0;
+}
+
+.active {
+  border: 0px solid #b3b4bd;
 }
 
 .button:hover {
