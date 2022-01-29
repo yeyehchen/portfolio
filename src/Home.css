@@ -20,7 +20,7 @@
   margin: 20% 0% 6% 0%;
 }
 
-.profilePhoto{
+.profilePhoto {
   width: 50%;
   height: auto;
 }
@@ -31,6 +31,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   position: relative;
+  width: 50%;
 }
 
 .profile-text-title {

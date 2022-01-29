@@ -25,7 +25,7 @@ function Home(props) {
         <img id="left-deco" src={decoration1} alt=""/>
       </div>
       <div className="top-container-body">
-          <img className="profilePhoto" src="profilePhoto.png" alt=""/>
+        <img className="profilePhoto" src="profilePhoto.png" alt=""/>
         <div className="profile-text-container">
           <div className="profile-text-title">
             <div className="f3 z2">DESIGNER</div>
