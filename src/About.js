@@ -6,7 +6,8 @@ import aboutDeco from "./svg-images/aboutDeco.svg";
 import greenDot from "./svg-images/greenDot.svg";
 import yellozDot from "./svg-images/yellozDot.svg";
 import redDot from "./svg-images/redDot.svg";
-import experience from "./svg-images/experience.svg"
+import experience from "./svg-images/experience.svg";
+import plusImage from "./svg-images/plusImage.svg";
 
 
 function About(props) {
@@ -72,10 +73,42 @@ function About(props) {
   )
 
   const renderSkills = () => (
-    <div className="skills-container">
-      <div></div>
-
-
+    <div className="container personal-skill-container">
+      <div className="f3 skills-title">PERSONAL SKILL</div>
+      <div className="skills-container">
+        <div className="design-container">
+          <div className="f2 file-title" id="design">DESIGN</div>
+          <div className="design-file-container">
+            <div className="file-list">
+              <div className="f1 file-item">FIGMA</div>
+              <div className="f1 file-item">ADOBE XD</div>
+              <div className="f1 file-item">PHOTOSHOP</div>
+              <div className="f1 file-item">PROCREATE</div>
+            </div>
+          </div>
+        </div>
+        <div className="coding-container">
+          <div className="f2 file-title" id="coding">CODING</div>
+          <div className="coding-file-container">
+            <div className="file-list">
+              <div className="f1 file-item">HTML/CSS</div>
+              <div className="f1 file-item">REACT</div>
+              <div className="f1 file-item">JAVASCRIPT</div>
+              <div className="f1 file-item">PYTHONE</div>
+            </div>
+          </div>
+        </div>
+        <img id="plusImage" src={plusImage} />
+        <div className="others-container">
+          <div className="f2 file-title">ALSO...</div>
+          <div className="others-file-container">
+            <div className="file-list">
+              <div className="f1 others-file-item">COOKING</div>
+              <div className="f1 others-file-item">CRAFTING</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 

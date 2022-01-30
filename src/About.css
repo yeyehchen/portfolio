@@ -107,3 +107,134 @@ animation-iteration-count: infinite;
   margin: 0 10%;
 }
 
+.personal-skill-container {
+  background-color: #f4f1de;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-title {
+  font-weight: bold;
+  color: #3d405b;
+  width: 90%;
+  margin: 5% 0;
+}
+
+.skills-container{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ width: 90%;
+ margin: 5% 0 20% 0;
+
+}
+
+.design-container{
+  width: 25%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.file-title {
+  background-color: #C4C4C4;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  width:80%;
+  position: relative;
+  padding: 10% 0 70% 0;
+  border-radius: 15%;
+}
+
+.design-file-container {
+  background-color: #81B29A;
+  border-radius: 40% 15% 15% 15%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top:35%;
+  width:100%;
+  align-items: center;
+}
+
+.file-list {
+  margin: 15% 0;
+}
+
+.file-item {
+ color: #3d405b;
+ margin: 12% 0;
+ font-weight: bold;
+ white-space: nowrap;
+}
+
+.coding-container{
+  width: 25%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.coding-file-container {
+  background-color: #E07A5F;
+  border-radius: 40% 15% 15% 15%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top:35%;
+  width:100%;
+  align-items: center;
+}
+
+#plusImage {
+  width: 10%;
+}
+
+.others-container{
+  width: 20%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.others-file-container {
+  background-color: #3d405b;
+  border-radius: 40% 15% 15% 15%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top:30%;
+  width:100%;
+  align-items: center;
+}
+
+.others-file-item {
+  color: white;
+  margin: 15% 0; 
+  font-weight: bold;
+}
+
+#design {
+  animation: design-file 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes design-file {
+0%{top:15%;}
+100%{top:0;}
+}
+
+#coding {
+  animation: coding-file 4s;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes coding-file {
+0%{top:15%;}
+100%{top:0%;}
+}
