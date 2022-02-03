@@ -1,0 +1,141 @@
+
+
+.mobile-ui-projects-container{
+  color: #3d405b;
+  background-color: #f4f1de;
+  padding-top: 5%;
+}
+
+.mobile-ui-title-box{
+  background-color: #E07A5F;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5% ;
+  border-radius: 10vw;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mobile-uiWeb-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+#mobile-uiWorkIcon {
+  width: 30%;
+  margin: 3%;
+}
+#mobile-workNee {
+  width:90%;
+} 
+
+.mobile-project-list {
+  background-color: #e3e0cc;
+  border-radius: 15vw 15vw 0 0;
+  padding: 10% 0;
+}
+
+.mobile-ui-project-text-container {
+  display: flex;
+  flex-direction: column;
+  color: #3d405b;
+  align-items: center;
+}
+
+.mobile-project-name {
+  font-weight: bold;
+  width:90%;
+  text-align: right;
+  margin: 3% 0;
+}
+
+.mobile-project-tool {
+  width:90%;
+  text-align: right;
+}
+
+#mobile-workBike {
+  width:90%;
+}
+
+#mobile-workFurniture {
+  width:90%;
+}
+
+#mobile-workNote {
+  width: 90%;
+}
+
+#mobile-workRecipe {
+  width:90%;
+}
+
+#mobile-workCafe{
+  width:90%;
+}
+
+.mobile-other-design-container {
+  background-color: #464963;
+  padding-top:10%;
+}
+
+#mobile-title-box {
+  background-color: #81B29A;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5% ;
+  border-radius: 10vw;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#mobile-otherWorkIcon {
+  width: 30%;
+  margin: 3%;
+}
+
+.mobile-other-design-list {
+  background-color: #3d405b;
+  border-radius: 15vw 15vw 0 0;
+  padding: 10% 0;
+}
+
+#mobile-worKIcon {
+  width: 90%;
+}
+
+.mobile-other-design-title {
+  font-weight: bold;
+  color: #3d405b;
+  text-align: center;
+}
+
+.mobile-other-design-item {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  font-weight: bold;
+  text-align: right;
+}
+
+.mobile-other-design-text {
+  font-weight: bold;
+  width:90%;
+  text-align: right;
+  margin: 3% 0;
+}
+
+#mobile-worKHaobao {
+  width: 90%;
+}
+
+#mobile-worKBienyeh {
+  width: 90%;
+}
+
+#mobile-calendar {
+  width: 90%;
+}

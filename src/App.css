@@ -40,6 +40,14 @@ html {
   z-index: 2;
 }
 
+.mt {
+  margin-top: 20px;
+}
+
+.mb {
+  margin-bottom: 5%;
+}
+
 .container {
   width: 80%;
   padding: 0 10%;
