@@ -75,7 +75,11 @@ function Home(props) {
     <div className="container bottom-container">
       <div className="service-container">
         <div className="f3 service-title">HOW CAN I HELP YOU?</div>
-        <div className="f1 service-text">Do ea adipisicing non enim cupidatat consequat laborum dolore velit sit excepteur nulla id. Esse laborum aute qui fugiat culpa incididunt tempor nulla aliquip tempor ut. Do duis cupidatat ipsum deserunt. Amet commodo velit id magna dolore elit. Sit commodo et sunt commodo qui.</div>
+        <div className="f1 service-text">
+          I can help you bring your projects to life by giving them an appealing look that matches your brand
+          and your voice. I love everyting related to design. I'm happy to design your app, create a style
+          for your brand or pick up a pencil and create that illustation you need.
+        </div>
         <div className="service-iamges-container">
           <div className="service-image-ui">
             <img className="service-image-icon" src={uiwebIcon} />

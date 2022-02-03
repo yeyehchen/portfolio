@@ -30,6 +30,11 @@ html {
   font-size: 3.5vw;
 }
 
+.f5 {
+  font-size: 5vw;
+}
+
+
 .z1 {
   position: relative;
   z-index: 1;
@@ -61,6 +66,7 @@ html {
   padding-top: 5%;
   justify-content: space-between;
   color: #3d405b;
+  align-items: center;
 }
 
 .nav-name {
@@ -119,6 +125,17 @@ html {
   flex-direction: row;
 }
 
+.footer-top-mobile {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.footer-contact-mobile {
+  margin-left: 20px;
+}
+
 .footer-bottom {
   width: 100%;
   display: flex;
@@ -143,6 +160,15 @@ html {
   margin-top: 10%;
 }
 
+.footer-top-right-mobile {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  width: 40%;
+  justify-content: stretch;
+  margin-top: 10%;
+}
+
 .footer-image-container {
   width: 20%;
   margin: 5%;
@@ -151,6 +177,13 @@ html {
 .footer-text {
   font-weight: bold;
 }
+
+.footer-text-mobile {
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
 
 .footer-button {
   border:3px solid #3d405b;
@@ -161,9 +194,25 @@ html {
   margin: 2%;
 }
 
+.footer-button-mobile {
+  border:3px solid #3d405b;
+  font-weight: bold;
+  font-size: 12px;
+  width: 80%;
+  padding: 2%;
+  text-align: center;
+  margin: 2%;
+}
+
+
 .footer-copyright {
   padding-top: 1%;
   font-size: 1vw;
+}
+
+.footer-copyright-mobile {
+  padding-top: 1%;
+  font-size: 3vw;
 }
 
 #footerLine {
@@ -171,4 +220,12 @@ html {
 }
 
 
- 
+.mobile-menu-item {
+  color: white;
+  font-size: 30px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.mobile-menu-item-current {
+  text-decoration: underline;
+}

@@ -1,4 +1,5 @@
 import './App.css';
+import { useContext } from 'react';
 import Home from './Home';
 import HomeMobile from './HomeMobile';
 import About from './About';
@@ -12,27 +13,37 @@ import decoration2 from './svg-images/decoration2.svg';
 import ScrollToTop from './ScrollToTop';
 import Contact from './Contact';
 import ContactMobile from './ContactMobile';
-
-
+import WindowContext from './context/window-context';
+import NavMobile from './NavMobile';
+import FooterMobile from './FooterMobile';
 
 function App() {
+
+  const windowContext = useContext(WindowContext);
+
+  const render = (landscapeComponent, portraitComponent) => {
+    if(windowContext.isLandscape) {
+      return landscapeComponent;
+    }
+    return portraitComponent;
+  }
 
   return (
     <BrowserRouter>
       <ScrollToTop/>
-      <Nav/>
+      {render(<Nav/>, <NavMobile/>)}
       <Routes>
         <Route path="/" element={
           <>
-            {/*<img id="right-deco" src={decoration2} />*/}
-            <HomeMobile />
+            {render(<img id="right-deco" src={decoration2} />, null)}
+            {render(<Home/>, <HomeMobile/>)}
           </>
         } />
-        <Route path="/about" element={<AboutMobile/>} />
-        <Route path="/work" element={<Work/>} />
-        <Route path="/contact" element={<ContactMobile/>} />
+        <Route path="/about" element={render(<About/>, <AboutMobile/>)} />
+        <Route path="/work" element={render(<Work/>, <WorkMobile/>)} />
+        <Route path="/contact" element={render(<Contact/>, <ContactMobile/>)} />
       </Routes>
-      <Footer/>
+      {render(<Footer/>, <FooterMobile/>)}
     </BrowserRouter>
   );
 }

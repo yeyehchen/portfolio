@@ -2,8 +2,6 @@ import { firebaseConfig } from "./firebaseConfig";
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc, Timestamp } from "firebase/firestore"; 
 
-console.log(firebaseConfig)
-
 const firebaseApp = initializeApp(firebaseConfig);
 const db = getFirestore(firebaseApp);
 
