@@ -77,7 +77,7 @@ function Home(props) {
         <div className="f3 service-title">HOW CAN I HELP YOU?</div>
         <div className="f1 service-text">
           I can help you bring your projects to life by giving them an appealing look that matches your brand
-          and your voice. I love everyting related to design. I'm happy to design your app, create a style
+          and your voice. I love everything related to design. I'm happy to design your app, create a style
           for your brand or pick up a pencil and create that illustation you need.
         </div>
         <div className="service-iamges-container">

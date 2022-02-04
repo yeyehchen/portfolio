@@ -3,7 +3,7 @@ import "./WorkMobile.css";
 
 import uiWorkIcon from "./svg-images/uiWorkIcon.svg";
 import calendar from "./svg-images/calendar.svg";
-import otherWorkIcon from "./svg-images/otherWorkIcon.svg";
+import otherWorkIcon from "./svg-images/mobile-otherWorkIcon.svg";
 import workbienyeh from "./svg-images/workbienyeh.svg";
 import workBike from "./svg-images/workBike.svg";
 import workCafe from "./svg-images/workCafe.svg";
@@ -14,6 +14,7 @@ import workNote from "./svg-images/workNote.svg";
 import workRecipe from "./svg-images/workRecipe.svg";
 import workIcon from "./svg-images/workIcon.svg";
 import workLine from "./svg-images/workLine.svg";
+import workTPLogo from "./svg-images/tpLogo.svg";
 
 const renderProjects = () => {
 
@@ -68,6 +69,10 @@ const renderOtherPorjects = () => (
       <div className="mobile-t2 mobile-other-design-title" >OTHER PROJECTS</div>
     </div>
     <div className="mobile-other-design-list mt">
+    <div className="mobile-other-design-item mb">
+        <img id="mobile-worKTPLogo" src={workTPLogo} alt="" />
+        <div className="mobile-t3 mobile-other-design-text">LOGO DESIGN</div>
+      </div>
       <div className="mobile-other-design-item mt mb">
         <img id="mobile-worKBienyeh" src={workbienyeh} alt="" />
         <div className="mobile-t3 mobile-other-design-text">BRANDING/LOGO DESIGN</div>

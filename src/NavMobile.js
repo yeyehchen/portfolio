@@ -18,35 +18,39 @@ function Nav(props) {
 
   return (
     <>
-      <Drawer
+      <Drawer 
         anchor={"right"}
         open={open}
         onClose={() => setOpen(false)}
         PaperProps={{
           sx: {
+            marginTop:"55px" ,
+            height:"11vh",
             backgroundColor: "#3d405b",
+            opacity:"0.9",
+            scrollbar: "none",
           }
         }}
       >
-        <List sx={{ width: "50vw" }}>
+        <List sx={{display:"inline-flex"}}>
           <ListItem button>
-            <div className={`mobile-menu-item ${location.pathname === "/" ? "mobile-menu-item-current" : ""}`} onClick={() => go('/')}>
-              Home
+            <div className={"mobile-t4 mobile-menu-item " + (location.pathname === "/" ? "mobile-menu-item-active" : "")} onClick={() => go('/')}>
+              HOME
             </div>
           </ListItem>
           <ListItem button>
-            <div className={`mobile-menu-item ${location.pathname === "/about" ? "mobile-menu-item-current" : ""}`} onClick={() => go('/about')}>
-              About
+            <div className={"mobile-t4 mobile-menu-item " + (location.pathname === "/about" ? "mobile-menu-item-active" : "")} onClick={() => go('/about')}>
+              ABOUT
             </div>
           </ListItem>
           <ListItem button>
-            <div className={`mobile-menu-item ${location.pathname === "/work" ? "mobile-menu-item-current" : ""}`} onClick={() => go('/work')}>
-              Work
+            <div className={"mobile-t4 mobile-menu-item " + (location.pathname === "/work" ? "mobile-menu-item-active": "")} onClick={() => go('/work')}>
+              WORK
             </div>
           </ListItem>
           <ListItem button>
-            <div className={`mobile-menu-item ${location.pathname === "/contact" ? "mobile-menu-item-current" : ""}`} onClick={() => go('/contact')}>
-              Contact
+            <div className={"mobile-t4 mobile-menu-item " + (location.pathname === "/contact" ? "mobile-menu-item-active" : "")} onClick={() => go('/contact')}>
+              CONTACT
             </div>
           </ListItem>
         </List>
@@ -62,7 +66,7 @@ function Nav(props) {
               onClick={() => navigate('/')}
             >
               YEYEH CHEN
-          </Typography>
+            </Typography>
             <IconButton
               size="large"
               edge="start"

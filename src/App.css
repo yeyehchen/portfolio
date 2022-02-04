@@ -201,7 +201,7 @@ html {
   width: 80%;
   padding: 2%;
   text-align: center;
-  margin: 2%;
+  margin: 5%;
 }
 
 
@@ -219,13 +219,23 @@ html {
   width: 80%;
 }
 
-
 .mobile-menu-item {
   color: white;
-  font-size: 30px;
   font-family: 'Noto Sans', sans-serif;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  padding: 10px 5px;
+  margin: 10px 0;
+  width: 100%;
 }
 
-.mobile-menu-item-current {
-  text-decoration: underline;
+.mobile-menu-item:link , .mobile-menu-item:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.mobile-menu-item-active {
+  border: 0px solid #b3b4bd;
 }

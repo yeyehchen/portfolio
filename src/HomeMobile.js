@@ -65,7 +65,7 @@ function HomeMobile(props) {
         <div className="mobile-t2 mobile-service-title">HOW CAN I HELP YOU?</div>
         <div className="mobile-t4 mobile-service-text">
           I can help you bring your projects to life by giving them an appealing look that matches your brand
-          and your voice. I love everyting related to design. I'm happy to design your app, create a style
+          and your voice. I love everything related to design. I'm happy to design your app, create a style
           for your brand or pick up a pencil and create that illustation you need.
         </div>
         <div className="mobile-service-iamges-container">
