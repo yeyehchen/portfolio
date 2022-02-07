@@ -17,12 +17,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 20% 0% 6% 0%;
+  margin: 20% 0% 6% 3%;
 }
 
 .profilePhoto {
   width: 50%;
   height: auto;
+  z-index: 10;
 }
 
 .profile-text-container {
@@ -136,6 +137,7 @@
   position: relative;
   width: 100%;
 }
+
 
 #uiwork-note {
   position: relative;

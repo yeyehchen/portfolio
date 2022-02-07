@@ -223,10 +223,12 @@ animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
+/*
 @keyframes design-file {
 0%{top:15%;}
 100%{top:0;}
 }
+*/
 
 #coding {
   animation: coding-file 4s;
@@ -234,7 +236,9 @@ animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
+/*
 @keyframes coding-file {
 0%{top:15%;}
 100%{top:0%;}
 }
+*/

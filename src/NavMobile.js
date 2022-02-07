@@ -24,32 +24,30 @@ function Nav(props) {
         onClose={() => setOpen(false)}
         PaperProps={{
           sx: {
-            marginTop:"55px" ,
-            height:"11vh",
+            width: "50%",
             backgroundColor: "#3d405b",
             opacity:"0.9",
-            scrollbar: "none",
           }
         }}
       >
-        <List sx={{display:"inline-flex"}}>
+        <List sx={{}}>
           <ListItem button>
-            <div className={"mobile-t4 mobile-menu-item " + (location.pathname === "/" ? "mobile-menu-item-active" : "")} onClick={() => go('/')}>
+            <div className={"mobile-menu-item " + (location.pathname === "/" ? "mobile-menu-item-active" : "")} onClick={() => go('/')}>
               HOME
             </div>
           </ListItem>
           <ListItem button>
-            <div className={"mobile-t4 mobile-menu-item " + (location.pathname === "/about" ? "mobile-menu-item-active" : "")} onClick={() => go('/about')}>
+            <div className={"mobile-menu-item " + (location.pathname === "/about" ? "mobile-menu-item-active" : "")} onClick={() => go('/about')}>
               ABOUT
             </div>
           </ListItem>
           <ListItem button>
-            <div className={"mobile-t4 mobile-menu-item " + (location.pathname === "/work" ? "mobile-menu-item-active": "")} onClick={() => go('/work')}>
+            <div className={"mobile-menu-item " + (location.pathname === "/work" ? "mobile-menu-item-active": "")} onClick={() => go('/work')}>
               WORK
             </div>
           </ListItem>
           <ListItem button>
-            <div className={"mobile-t4 mobile-menu-item " + (location.pathname === "/contact" ? "mobile-menu-item-active" : "")} onClick={() => go('/contact')}>
+            <div className={"mobile-menu-item " + (location.pathname === "/contact" ? "mobile-menu-item-active" : "")} onClick={() => go('/contact')}>
               CONTACT
             </div>
           </ListItem>

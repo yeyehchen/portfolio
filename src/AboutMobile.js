@@ -92,7 +92,7 @@ function AboutMobile(props) {
                 <div className="mobile-t4 mobile-file-item">HTML/CSS</div>
                 <div className="mobile-t4 mobile-file-item">REACT</div>
                 <div className="mobile-t4 mobile-file-item">JAVASCRIPT</div>
-                <div className="mobile-t4 mobile-file-item">PYTHONE</div>
+                <div className="mobile-t4 mobile-file-item">PYTHON</div>
               </div>
             </div>
           </div>

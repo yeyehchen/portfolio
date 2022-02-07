@@ -87,7 +87,7 @@ const renderOtherPorjects = () => (
       </div>
       <div className="mobile-other-design-item">
         <img id="mobile-calendar" src={calendar} alt="" />
-        <div className="mobile-t3 mobile-other-design-text">CALENDER DESIGN/ILLUSTRATION</div>
+        <div className="mobile-t3 mobile-other-design-text">CALENDAR DESIGN/ILLUSTRATION</div>
       </div>
     </div>
   </div>

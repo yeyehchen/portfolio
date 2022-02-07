@@ -94,7 +94,7 @@ function About(props) {
               <div className="f1 file-item">HTML/CSS</div>
               <div className="f1 file-item">REACT</div>
               <div className="f1 file-item">JAVASCRIPT</div>
-              <div className="f1 file-item">PYTHONE</div>
+              <div className="f1 file-item">PYTHON</div>
             </div>
           </div>
         </div>

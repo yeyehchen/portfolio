@@ -105,7 +105,7 @@ const renderOtherPorjects = () => (
       <img id="calendar" src={calendar} alt=""/>
     </div>
     <div className="other-design-text-containter">
-      <div className="f2 other-design-text">CALENDER DESIGN/ILLUSTRATION</div>
+      <div className="f2 other-design-text">CALENDAR DESIGN/ILLUSTRATION</div>
     </div>
   </div>
 
