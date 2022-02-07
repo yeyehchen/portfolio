@@ -81,19 +81,18 @@ function Contact(props) {
           </div>
           <div className="f2 contact-content-text">You can find me in the following platforms</div>
           <div className="contact-webside-group">
-          <div className="contact-web github" >
-              <img className="web-icon" src={github} alt=""/>
-              <div className="f1 web-name">GitHub</div>
-            </div>
-            <div className="contact-web dribbble">
+            <a className="contact-web dribbble" target="_blank" href="https://dribbble.com/Yeyeh">
               <img className="web-icon" src={dribbble} alt=""/>
               <div className="f1 web-name">Dribbble</div>
-            </div>
-            <div className="contact-web linkedin">
+            </a>
+            <a className="contact-web linkedin" target="_blank" href="https://www.linkedin.com/in/yeyeh-chen-94132b202/">
               <img className="web-icon" src={linkedin} alt=""/>
               <div className="f1 web-name">LinkedIn</div>
-            </div>
-            
+            </a>
+            <a className="contact-web github" target="_blank" href="https://github.com/yeyehchen">
+              <img className="web-icon" src={github} alt=""/>
+              <div className="f1 web-name">GitHub</div>
+            </a>
           </div>
         </div>
         <div className="contact-container-right">

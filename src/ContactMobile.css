@@ -54,32 +54,16 @@
 }
 
 .mobile-contact-webside-group {
-  display: grid;
-  grid-template-columns: 45% 45%;
-  justify-content: center;
-}
-
-.mobile-contact-web {
-  display: grid;
-  grid-template-columns: 40% 40%;
-  padding:5%;
-  margin: 3%;
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  font-weight: bold;
-  border-radius: 5vw;
-  background-color: white;
 }
 
 .mobile-web-icon {
-  width: 80%;
-}
-
-.mobile-dribbble {
-  color: #B7207A;
-}
-
-.mobile-linkedin {
-  color: #3987CA;
+ width:15%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
 .mobile-contact-title {

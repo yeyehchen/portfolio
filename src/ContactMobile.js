@@ -81,18 +81,15 @@ function ContactMobile(props) {
           </div>
           <div className="mobile-t3 mobile-contact-content-text">You can find me in the following platforms</div>
           <div className="mobile-contact-webside-group mb">
-            <div className="mobile-contact-web mobile-github" >
-              <img className="mobile-web-icon" src={github} alt="" />
-              <div className="mobile-t4 mobile-web-name">GitHub</div>
-            </div>
-            <div className="mobile-contact-web mobile-dribbble">
-              <img className="mobile-web-icon" src={dribbble} alt="" />
-              <div className="mobile-t4 mobile-web-name">Dribbble</div>
-            </div>
-            <div className="mobile-contact-web mobile-linkedin">
-              <img className="mobile-web-icon" src={linkedin} alt="" />
-              <div className="mobile-t4 mobile-web-name">LinkedIn</div>
-            </div>
+            <a className="mobile-web-icon" target="_blank" href="https://dribbble.com/Yeyeh">
+              <img className="" src={dribbble} alt="" />
+            </a>
+            <a className="mobile-web-icon" target="_blank" href="https://www.linkedin.com/in/yeyeh-chen-94132b202/">
+              <img className="" src={linkedin} alt="" />
+            </a>
+            <a className="mobile-web-icon" target="_blank" href="https://github.com/yeyehchen">
+              <img className="" src={github} alt="" />
+            </a>
           </div>
         </div>
       </div>
