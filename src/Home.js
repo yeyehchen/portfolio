@@ -33,10 +33,10 @@ function Home(props) {
           </div>
           <div className="profile-text">
             <div className="f2 z2">Hi! I am Yeyeh.</div>
-            <div className="f2 z2">Fashion designer turned UI and Web designer.</div>
+            <div className="f2 z2">Fashion designer turned UI and web designer.</div>
           </div>
           <div className="top-container-footer">
-            <img id="mail-icon" src={mailIcon} />
+            <img className="pointer" id="mail-icon" src={mailIcon} onClick={() => navigate("/contact")}/>
             <img id="polygon" src={footerPolygon}/>
             <div className="f1 top-container-footer-text">Contact me here!</div>
           </div>

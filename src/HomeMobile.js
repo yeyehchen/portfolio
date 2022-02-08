@@ -31,7 +31,7 @@ function HomeMobile(props) {
         </div>
         <div className="mobile-profile-text">
           <div className="mobile-t3">Hi! I am Yeyeh.</div>
-          <div className="mobile-t3">Fashion designer turned UI and Web designer.</div>
+          <div className="mobile-t3">Fashion designer turned UI and web designer.</div>
         </div>
       </div>
       <img className="mobile-profilePhoto" src="profilePhoto1000.png" />
