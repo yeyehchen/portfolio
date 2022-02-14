@@ -119,7 +119,7 @@
 .uiwork-text {
   position: absolute;
   color:white;
-  right: 5%;
+  right: 20px;
   bottom: 5%;
   font-weight: bold;
 }
@@ -140,6 +140,10 @@
   width: 100%;
 }
 
+
+#uiwork-cafe{
+  position: relative;
+}
 
 #uiwork-note {
   position: relative;

@@ -2,12 +2,12 @@
 
 .mobile-ui-projects-container{
   color: #3d405b;
-  background-color: #f4f1de;
+  background-color: #3d405b;
   padding-top: 5%;
 }
 
 .mobile-ui-title-box{
-  background-color: #3d405b;
+  background-color: #E07A5F;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -32,7 +32,7 @@
 } 
 
 .mobile-project-list {
-  background-color: #e3e0cc;
+  background-color: #F4F1DE;
   border-radius: 15vw 15vw 0 0;
   padding: 10% 0;
 }
@@ -77,12 +77,12 @@
 }
 
 .mobile-other-design-container {
-  background-color: #555872;
+  background-color: #3d405b;
   padding-top:10%;
 }
 
 #mobile-title-box {
-  background-color: white;
+  background-color: #E07A5F;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -98,7 +98,7 @@
 }
 
 .mobile-other-design-list {
-  background-color: #3d405b;
+  background-color: #4f5376;
   border-radius: 15vw 15vw 0 0;
   padding: 10% 0;
 }
@@ -109,7 +109,7 @@
 
 .mobile-other-design-title {
   font-weight: bold;
-  color: #3d405b;
+  color: white;
   text-align: center;
 }
 
