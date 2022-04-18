@@ -90,7 +90,7 @@
 }
 
 #title-box {
-  background-color: #81B29A;
+  background-color: #C4C4C4;
   width: 36%;
   display: flex;
   flex-direction: column;
@@ -101,10 +101,10 @@
 
 #otherWorkIcon {
   width: 50%;
-  padding: 5%;
+ padding: 5%;
 }
 
-#worKIcon {
+#workIcon {
   width: 60%;
 }
 

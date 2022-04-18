@@ -87,7 +87,7 @@ const renderOtherPorjects = () => (
         <div className="f3 other-design-title" >OTHER DESIGN PROJECTS</div>
         <img id="otherWorkIcon" src={otherWorkIcon} alt=""/>
       </div>
-      <img id="worKIcon" src={workIcon} alt=""/>
+      <img id="workIcon" src={workIcon} alt=""/>
     </div>
     <div className="other-design-text-containter">
       <div className="f2 other-design-text">ICON DESIGN</div>
